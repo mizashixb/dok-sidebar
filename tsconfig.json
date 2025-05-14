@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
     "declaration": true,
-    "declarationDir": "dist",
-    "outDir": "dist",
+    "declarationDir": "src/dist",
+    "outDir": "src/dist",
     "module": "ESNext",
     "target": "ESNext",
     "jsx": "react-jsx",
