@@ -4,7 +4,6 @@ export { default as NavMain } from "./components/nav-main";
 export { default as NavProjects } from "./components/nav-projects";
 export { default as NavUser } from "./components/nav-user";
 export { default as TeamSwitcher } from "./components/team-switcher";
-
 // Componenti UI
 export { Sidebar } from "./components/ui/sidebar";
 export { Button } from "./components/ui/button";
@@ -17,6 +16,5 @@ export { Breadcrumb } from "./components/ui/breadcrumb";
 export { Collapsible } from "./components/ui/collapsible";
 export { DropdownMenu } from "./components/ui/dropdown-menu";
 export { Avatar } from "./components/ui/avatar";
-
 // Hook
 export { useIsMobile } from "./hooks/use-mobile";

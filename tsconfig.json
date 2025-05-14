@@ -5,8 +5,8 @@
       "@/*": ["./src/*"]
     },
     "declaration": true,
-    "declarationDir": "src/dist",
-    "outDir": "src/dist",
+    "declarationDir": "dist/types",   // Cambiato per generare le dichiarazioni separatamente
+    "outDir": "dist",  // Cambiato per mettere tutti i file compilati nella cartella dist
     "module": "ESNext",
     "target": "ESNext",
     "jsx": "react-jsx",
@@ -15,6 +15,5 @@
     "strict": true,
     "skipLibCheck": true
   },
-  // "include": ["**/*.ts", "**/*.tsx"]
-  "include": ["src"]
+  "include": ["src/**/*"]
 }

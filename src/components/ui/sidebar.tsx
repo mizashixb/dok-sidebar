@@ -11,8 +11,8 @@ import { Button } from "./button";
 import { Input } from "./input";
 import { SheetContent, SheetHeader, SheetTitle, Sheet, SheetDescription } from "./sheet";
 import { Skeleton } from "./skeleton";
-import { useIsMobile } from "@/hooks/use-mobile";
 import { cn } from "@/lib/utils";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const SIDEBAR_COOKIE_NAME = "sidebar_state";
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7;
