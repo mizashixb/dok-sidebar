@@ -5,14 +5,14 @@ import { Slot } from "@radix-ui/react-slot";
 import { VariantProps, cva } from "class-variance-authority";
 import { PanelLeftIcon } from "lucide-react";
 
-import { useIsMobile } from "@/src/hooks/use-mobile";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./tooltip";
-import { cn } from "@/src/lib/utils";
 import { Separator } from "@radix-ui/react-dropdown-menu";
 import { Button } from "./button";
 import { Input } from "./input";
 import { SheetContent, SheetHeader, SheetTitle, Sheet, SheetDescription } from "./sheet";
 import { Skeleton } from "./skeleton";
+import { useIsMobile } from "@/hooks/use-mobile";
+import { cn } from "@/lib/utils";
 
 const SIDEBAR_COOKIE_NAME = "sidebar_state";
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7;
