@@ -1,9 +1,9 @@
 import * as React from "react";
 import { VariantProps } from "class-variance-authority";
 import { TooltipContent } from "./tooltip";
-import { Separator } from "@radix-ui/react-dropdown-menu";
 import { Button } from "./button";
 import { Input } from "./input";
+import { Separator } from "./separator";
 type SidebarContextProps = {
     state: "expanded" | "collapsed";
     open: boolean;

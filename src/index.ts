@@ -22,5 +22,4 @@ export { Avatar } from "./components/ui/avatar";
 export { useIsMobile } from "./hooks/use-mobile";
 
 // Lib
-
 export { cn } from "./lib/utils";
