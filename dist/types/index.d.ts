@@ -15,3 +15,4 @@ export { Collapsible } from "./components/ui/collapsible";
 export { DropdownMenu } from "./components/ui/dropdown-menu";
 export { Avatar } from "./components/ui/avatar";
 export { useIsMobile } from "./hooks/use-mobile";
+export { cn } from "./lib/utils";

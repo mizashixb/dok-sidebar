@@ -18,3 +18,5 @@ export { DropdownMenu } from "./components/ui/dropdown-menu";
 export { Avatar } from "./components/ui/avatar";
 // Hook
 export { useIsMobile } from "./hooks/use-mobile";
+// Lib
+export { cn } from "./lib/utils";
