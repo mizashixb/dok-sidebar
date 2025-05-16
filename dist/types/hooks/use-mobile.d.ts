@@ -1,1 +1,1 @@
-export declare function useIsMobile(): boolean;
+export default function useIsMobile(): boolean;

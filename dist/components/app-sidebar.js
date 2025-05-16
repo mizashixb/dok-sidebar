@@ -1,6 +1,7 @@
+"use client";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { AudioWaveform, BookOpen, Bot, Command, Frame, GalleryVerticalEnd, Map, PieChart, Settings2, SquareTerminal } from "lucide-react";
-import { Sidebar, SidebarContent, SidebarFooter, SidebarHeader, SidebarRail } from "./ui/sidebar";
+import { Sidebar, SidebarContent, SidebarFooter, SidebarHeader, SidebarProvider, SidebarRail } from "./ui/sidebar";
 import { NavProjects } from "..";
 import { NavUser } from "..";
 import { TeamSwitcher } from "..";
@@ -135,5 +136,5 @@ const data = {
     ],
 };
 export default function AppSidebar({ ...props }) {
-    return (_jsxs(Sidebar, { collapsible: "icon", ...props, children: [_jsx(SidebarHeader, { children: _jsx(TeamSwitcher, { teams: data.teams }) }), _jsxs(SidebarContent, { children: [_jsx(NavMain, { items: data.navMain }), _jsx(NavProjects, { projects: data.projects })] }), _jsx(SidebarFooter, { children: _jsx(NavUser, { user: data.user }) }), _jsx(SidebarRail, {})] }));
+    return (_jsx(SidebarProvider, { children: _jsxs(Sidebar, { collapsible: "icon", ...props, children: [_jsx(SidebarHeader, { children: _jsx(TeamSwitcher, { teams: data.teams }) }), _jsxs(SidebarContent, { children: [_jsx(NavMain, { items: data.navMain }), _jsx(NavProjects, { projects: data.projects })] }), _jsx(SidebarFooter, { children: _jsx(NavUser, { user: data.user }) }), _jsx(SidebarRail, {})] }) }));
 }

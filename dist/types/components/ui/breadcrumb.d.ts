@@ -8,4 +8,4 @@ declare function BreadcrumbLink({ asChild, className, ...props }: React.Componen
 declare function BreadcrumbPage({ className, ...props }: React.ComponentProps<"span">): import("react/jsx-runtime").JSX.Element;
 declare function BreadcrumbSeparator({ children, className, ...props }: React.ComponentProps<"li">): import("react/jsx-runtime").JSX.Element;
 declare function BreadcrumbEllipsis({ className, ...props }: React.ComponentProps<"span">): import("react/jsx-runtime").JSX.Element;
-export { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbPage, BreadcrumbSeparator, BreadcrumbEllipsis, };
+export { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbPage, BreadcrumbSeparator, BreadcrumbEllipsis };
